@@ -1,0 +1,14 @@
+<Environment>
+	<Variable>
+		<Name>name</Name>
+		<Value><![CDATA[Denys]]></Value>
+	</Variable>
+	<Variable>
+		<Name>surname</Name>
+		<Value><![CDATA[Hryvastov]]></Value>
+	</Variable>
+	<Variable>
+		<Name>age</Name>
+		<Value><![CDATA[37]]></Value>
+	</Variable>
+</Environment>
