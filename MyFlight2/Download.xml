@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Owners>
+  <OwnerId>1</OwnerId>
+  <OwnerType>TEST</OwnerType>
+  <Name><![CDATA[MyFlight]]></Name>
+  <FSRoot><![CDATA[Test\1\1\1]]></FSRoot>
+  <FSPath><![CDATA[Test\1\1\1]]></FSPath>
+  <QCPath><![CDATA[Subject\FlightApp\MyFlight]]></QCPath>
+  <Owner>
+    <OwnerId>1</OwnerId>
+    <OwnerType>TEST</OwnerType>
+    <Name><![CDATA[MyFlight]]></Name>
+    <FSRoot><![CDATA[Test\1\1\1]]></FSRoot>
+    <FSPath><![CDATA[Test\1\1\1]]></FSPath>
+    <QCPath><![CDATA[Subject\FlightApp\MyFlight]]></QCPath>
+    <Relation>
+      <RelatedId>1003</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action1]]></Name>
+      <FSRoot><![CDATA[Test\1\1\1]]></FSRoot>
+      <FSPath><![CDATA[Test\1\1\1]]></FSPath>
+      <QCPath><![CDATA[Subject\FlightApp\MyFlight]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1015</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[DefaultWeb.qrs]]></Name>
+      <FSRoot><![CDATA[resources\1015]]></FSRoot>
+      <FSPath><![CDATA[resources\1015]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\Recovery Scenarios\DefaultWeb.qrs]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>5</Order>
+      <FileName>DefaultWeb.qrs</FileName>
+      <SubType>Recovery scenario</SubType>
+    </Relation>
+    <Relation>
+      <RelatedId>1001</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Main Test Flow]]></Name>
+      <FSRoot><![CDATA[Test\1\1\1]]></FSRoot>
+      <FSPath><![CDATA[Test\1\1\1]]></FSPath>
+      <QCPath><![CDATA[Subject\FlightApp\MyFlight]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1002</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSRoot><![CDATA[Test\1\1\1]]></FSRoot>
+      <FSPath><![CDATA[Test\1\1\1]]></FSPath>
+      <QCPath><![CDATA[Subject\FlightApp\MyFlight]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1021</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[variables]]></Name>
+      <FSRoot><![CDATA[resources\1021]]></FSRoot>
+      <FSPath><![CDATA[resources\1021]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\env_variables\variables]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>6</Order>
+      <FileName>env-variables.xml</FileName>
+      <SubType>Environment variables</SubType>
+    </Relation>
+    <Relation>
+      <RelatedId>1020</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[denys_data_table]]></Name>
+      <FSRoot><![CDATA[resources\1020]]></FSRoot>
+      <FSPath><![CDATA[resources\1020]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\data_tables\denys_data_table]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>3</Order>
+      <FileName>data_table_denys.xls</FileName>
+      <SubType>Data table</SubType>
+    </Relation>
+    <Relation>
+      <RelatedId>1004</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[Java.txt]]></Name>
+      <FSRoot><![CDATA[resources\1004]]></FSRoot>
+      <FSPath><![CDATA[resources\1004]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\Libraries\Java.txt]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>4</Order>
+      <FileName>Java.txt</FileName>
+      <SubType>Function library</SubType>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1003</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action1]]></Name>
+    <FSRoot><![CDATA[Test\1\1\1]]></FSRoot>
+    <FSPath><![CDATA[Test\1\1\1]]></FSPath>
+    <QCPath><![CDATA[Subject\FlightApp\MyFlight]]></QCPath>
+    <Relation>
+      <RelatedId>1002</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSRoot><![CDATA[Test\1\1\1]]></FSRoot>
+      <FSPath><![CDATA[Test\1\1\1]]></FSPath>
+      <QCPath><![CDATA[Subject\FlightApp\MyFlight]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>2</Order>
+    </Relation>
+  </Owner>
+</Owners>
